@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title><%= title %> | Express</title>
+</head>
+<body>
+    <div class="container">
+        <h1><%= title %></h1>
+        <p>
+            <a href="/">Back to homepage!</a>
+        </p>
+    </div>
+</body>
+</html>
+
+<style>
+body{
+    display: flex;
+}
+
+.container{
+    /* border: 1px solid lightgray; */
+    position: absolute;
+    top:  30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+}
+
+p{
+    text-align: center;
+}
+</style>

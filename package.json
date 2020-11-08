@@ -1,0 +1,23 @@
+{
+  "name": "express-mongodb-template",
+  "version": "1.0.0",
+  "description": "Customized Express MongoDB Template",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": ["template", "node.js", "express"],
+  "author": "Paul Exconde <paulexconde20@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
