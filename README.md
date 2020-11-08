@@ -2,10 +2,10 @@
 
 ## Installation
 
-To clone the repo:
+To use this template
 
 ```ssh
-$ git clone
+$ npx degit paulexconde/express-template <your-project-name>
 ```
 
 Install the dependencies
