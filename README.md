@@ -1,5 +1,7 @@
 # My Express Template
 
+This is not the official template for Express. The structure of the the application is up to you. Feel free to use this template.
+
 ## Installation
 
 To use this template
